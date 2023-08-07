@@ -21,3 +21,62 @@
    border:1px solid rgba(0, 0, 0, 0.3);
    box-shadow:0 3px 9px 3px  rgba(0,0,0,0.4);
 }
+.bg-image {
+    background-image:url(bgimage.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment:fixed;
+    background-size:cover;
+    height:100vh;
+}
+.h2-style {
+    font-family: 'Roboto Slab', serif;
+    font-weight:bold;
+    color:rgb(255, 255, 255);
+    font-size:3.5rem;
+}
+.btn-style {
+width:150px;
+height:70px;
+background-color:orange;
+border:none;
+border-radius:5px;
+color:white;
+font-size:1.5rem;
+text-align: center;
+transition:0.3s;
+}
+.btn-style:hover {
+width:160px;
+height:80px;
+background-color:white;
+color:black;
+
+
+font-size:1.6rem;
+
+}
+.h3-style {
+    font-family: 'Roboto Slab', serif;
+    font-weight:bold;
+    
+    font-size:3.5rem;
+    
+}
+.carousel-div {
+    padding:10% 15%;
+}
+.shirt {
+    width:300px;
+    height:auto;
+    transition:0.3s;
+}
+.shirt:hover {
+    width:301px;
+    height:auto;
+    box-shadow:1px 1px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.h4-style {
+    padding:2% 5%;
+    color:orange;
+}
