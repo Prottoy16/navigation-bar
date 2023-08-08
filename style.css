@@ -35,6 +35,11 @@
     color:rgb(255, 255, 255);
     font-size:3.5rem;
 }
+.link-stle {
+    color:black;
+    text-decoration:none;
+}
+
 .btn-style {
 width:150px;
 height:70px;
@@ -50,7 +55,7 @@ transition:0.3s;
 width:160px;
 height:80px;
 background-color:white;
-color:black;
+
 
 
 font-size:1.6rem;
@@ -79,4 +84,20 @@ font-size:1.6rem;
 .h4-style {
     padding:2% 5%;
     color:orange;
+}
+.image-span {
+    top:20px;
+    right:90px;
+    width:46px;
+    height:46px;
+    background-color:orange;
+    padding:5px;
+    border-radius:50px;
+    font-weight:bold;
+}
+.i-style {
+    color:orange;
+}
+.amount-style {
+    background-color:orange;
 }

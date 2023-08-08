@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -73,19 +74,19 @@
                   <div class="carousel-item active">
                     <div class="text-center carousel-div">
                     <h3 class="text-white h3-style">New collections</h3>
-                    <button type="button" class=" btn-style">GO</button>
+                    <button type="button" class=" btn-style"><a class="link-stle" href="#header">GO</a></button>
                   </div>
                   </div>
                   <div class="carousel-item">
                     <div class="text-center carousel-div">
                         <h3 class="text-white h3-style">Grab Your Products</h3>
-                        <button type="button" class=" btn-style">Buy Now</button>
+                        <button type="button" class=" btn-style"><a class="link-stle" href="#header">Buy Now</a></button>
                       </div>
                   </div>
                   <div class="carousel-item">
                     <div class="text-center carousel-div">
                         <h3 class="text-white h3-style">Hot Products</h3>
-                        <button type="button" class=" btn-style">Go Now</button>
+                        <button type="button" class=" btn-style"><a class="link-stle" href="#header">Shop Now</a></button>
                       </div>
                   </div>
                 </div>
@@ -105,40 +106,108 @@
             <div>
                 <h3 class="h3-style text-center py-2">Our Products</h3>
             </div>
-            <div class="container py-4">
+            <div class="container py-4" id="header">
                 <!-- first line start -->
                 <h4 class="h4-style text-lg-start text-md-center text-sm-center ">Premium Shirts</h4>
                 <div class="row">
-                    <div class="col-lg-4 text-center">
-                        <a href="#"><img src="shirt-1.jpg" alt="" class="shirt rounded"></a>
-                        <h5 class="py-2 text-secondary">Corduroy Shirt</h5>
+                    <div class="col-lg-4 text-center mb-3">
+                        <div class="position-relative">
+                            <img src="shirt-1.jpg" alt="" class="shirt rounded"><span class="position-absolute image-span d-flex align-items-center justify-content-center">sale</span>
+                            <div class="py-1 ">
+                                <i class="fa fa-star i-style" aria-hidden="true"></i>
+                                <i class="fa fa-star i-style" aria-hidden="true"></i>
+                                <i class="fa fa-star i-style" aria-hidden="true"></i>
+                                <i class="fa fa-star i-style" aria-hidden="true"></i>
+                                <i class="fa fa-star i-style" aria-hidden="true"></i>
+                            </div>
+                            <h5 class="py-1 text-secondary">Corduroy Shirt</h5>
+                            <span class="fw-bold amount-style p-1 rounded ">$ 45.50</span>
+                        </div>
+                        
                     </div>
-                    <div class="col-lg-4 text-center">
-                        <a href="#"><img src="shirt-2.jpg" alt="" class="shirt rounded"></a>
-                        <h5 class="py-2 text-secondary">Ordinary Cotton</h5>
+                    <div class="col-lg-4 text-center mb-3">
+                        <div class="position-relative">
+                        <img src="shirt-2.jpg" alt="" class="shirt rounded">
+                        <span class="position-absolute image-span d-flex align-items-center justify-content-center">sale</span>
+                            <div class="py-1 ">
+                                <i class="fa fa-star i-style" aria-hidden="true"></i>
+                                <i class="fa fa-star i-style" aria-hidden="true"></i>
+                                <i class="fa fa-star i-style" aria-hidden="true"></i>
+                                <i class="fa fa-star i-style" aria-hidden="true"></i>
+                                <i class="fa fa-star i-style" aria-hidden="true"></i>
+                            </div>
+                        <h5 class="py-1 text-secondary">Ordinary Cotton</h5>
+                        <span class="fw-bold amount-style p-1 rounded m-2">$ 40.50</span>
                     </div>
-                    <div class="col-lg-4 text-center">
-                        <a href="#"><img src="shirt-3.jpg" alt="" class="shirt rounded"></a>
-                        <h5 class="py-2 text-secondary">Check Shirt</h5>
+                    </div>
+                    <div class="col-lg-4 text-center mb-3">
+                        <div class="position-relative">
+                        <img src="shirt-3.jpg" alt="" class="shirt rounded">
+                        <span class="position-absolute image-span d-flex align-items-center justify-content-center">sold out</span>
+                            <div class="py-1 ">
+                                <i class="fa fa-star i-style" aria-hidden="true"></i>
+                                <i class="fa fa-star i-style" aria-hidden="true"></i>
+                                <i class="fa fa-star i-style" aria-hidden="true"></i>
+                                <i class="fa fa-star i-style" aria-hidden="true"></i>
+                                <i class="fa fa-star-half i-style" aria-hidden="true"></i>
+                            </div>
+                        <h5 class="py-1 text-secondary ">Check Shirt</h5>
+                        <span class="fw-bold amount-style p-1 rounded m-2">$ 30.10</span>
+                    </div>
                     </div>
                 </div>
                 <!-- first line ends -->
                 <!-- second line start -->
-                <h4 class="h4-style text-lg-start text-md-center text-sm-center ">Premium Tshirts</h4>
+                <h4 class="h4-style text-lg-start text-md-center text-sm-center ">Premium Shirts</h4>
                 <div class="row">
-                    <div class="col-lg-4 text-center">
-                        <a href="#"><img src="tshirt-1.jpg" alt="" class="shirt rounded"></a>
-                        <h5 class="py-2 text-secondary">V-Shape</h5>
+                    <div class="col-lg-4 text-center mb-3">
+                        <div class="position-relative">
+                            <img src="tshirt-1.jpg" alt="" class="shirt rounded"><span class="position-absolute image-span d-flex align-items-center justify-content-center">sale</span>
+                            <div class="py-1 ">
+                                <i class="fa fa-star i-style" aria-hidden="true"></i>
+                                <i class="fa fa-star i-style" aria-hidden="true"></i>
+                                <i class="fa fa-star i-style" aria-hidden="true"></i>
+                                <i class="fa fa-star i-style" aria-hidden="true"></i>
+                                <i class="fa fa-star i-style" aria-hidden="true"></i>
+                            </div>
+                            <h5 class="py-1 text-secondary">V-Shape</h5>
+                            <span class="fw-bold amount-style p-1 rounded ">$ 32.50</span>
+                        </div>
+                        
                     </div>
-                    <div class="col-lg-4 text-center">
-                        <a href="#"><img src="tshirt-2.jpg" alt="" class="shirt rounded"></a>
-                        <h5 class="py-2 text-secondary">O-Shape</h5>
+                    <div class="col-lg-4 text-center mb-3">
+                        <div class="position-relative">
+                        <img src="tshirt-2.jpg" alt="" class="shirt rounded">
+                        <span class="position-absolute image-span d-flex align-items-center justify-content-center">sale</span>
+                            <div class="py-1 ">
+                                <i class="fa fa-star i-style" aria-hidden="true"></i>
+                                <i class="fa fa-star i-style" aria-hidden="true"></i>
+                                <i class="fa fa-star i-style" aria-hidden="true"></i>
+                                <i class="fa fa-star i-style" aria-hidden="true"></i>
+                                <i class="fa fa-star-half i-style" aria-hidden="true"></i>
+                            </div>
+                        <h5 class="py-1 text-secondary">O-Shape</h5>
+                        <span class="fw-bold amount-style p-1 rounded m-2">$ 50.55</span>
                     </div>
-                    <div class="col-lg-4 text-center">
-                        <a href="#"><img src="tshirt-3.jpg" alt="" class="shirt rounded"></a>
-                        <h5 class="py-2 text-secondary">Old fashioned</h5>
+                    </div>
+                    <div class="col-lg-4 text-center mb-3">
+                        <div class="position-relative">
+                        <img src="tshirt-3.jpg" alt="" class="shirt rounded">
+                        <span class="position-absolute image-span d-flex align-items-center justify-content-center ">sold out</span>
+                            <div class="py-1 ">
+                                <i class="fa fa-star i-style" aria-hidden="true"></i>
+                                <i class="fa fa-star i-style" aria-hidden="true"></i>
+                                <i class="fa fa-star i-style" aria-hidden="true"></i>
+                                <i class="fa fa-star i-style" aria-hidden="true"></i>
+                                <i class="fa fa-star i-style" aria-hidden="true"></i>
+                               
+                            </div>
+                        <h5 class="py-1 text-secondary ">Old Fashioned</h5>
+                        <span class="fw-bold amount-style p-1 rounded m-2">$ 10</span>
+                    </div>
                     </div>
                 </div>
+                <!-- second line ends -->
             </div>
         </div>
     </main>
